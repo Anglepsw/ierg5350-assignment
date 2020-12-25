@@ -58,6 +58,7 @@ def test_random_policy(policy, env):
             "performance. Using purely random policy is not even work! " \
             "We encourage you to investigate this issue."
         )
+        print(_acts)
 
 # We register a non-slippery version of FrozenLake environment.
 register(
